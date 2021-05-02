@@ -3,12 +3,12 @@
     <id>com.github.openmindculture.intellijcutepinklighttheme</id>
     <description>Cute Pink Light Theme for IntelliJ Platform inspired by WebFreak's Cute Pink Light Theme for VisualStudio Code.</description>
     <change-notes>Initial theme release. Basic theme functionality.</change-notes>
-    <version>1.0.0</version>
+    <version>0.1.0</version>
     <vendor url="https://github.com/openmindculture/">Ingo Steinke (openmindculture)</vendor>
 
     <!-- Compatible with the following versions of IntelliJ Platform:
-      version 2019.1 and newer. -->
-    <idea-version since-build="191"/>
+      version 2020.2 and newer. -->
+    <idea-version since-build="202"/>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->

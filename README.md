@@ -1,38 +1,24 @@
-# intellij-cute-pink-light-theme
+# Cute Pink Light Theme
 
 ![Build](https://github.com/openmindculture/intellij-cute-pink-light-theme/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [x] Verify the [pluginGroup](/gradle.properties), [plugin ID](/src/main/resources/META-INF/plugin.xml) and [sources package](/src/main/kotlin).
-- [x] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the Plugin ID in the above README badges.
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
-
 <!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+A light theme for JetBrains IDEs (PhpStorm, WebStorm, IntelliJ IDEA, etc.) inspired by [Cute Pink Light Theme for VisualStudio Code](https://marketplace.visualstudio.com/items?itemName=webfreak.cute-theme).
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
+**BETA: This theme is usable, but still unfinished!**
 
-To keep everything working, do not remove `<!-- ... -->` sections. 
+If you like to support development, you can open a pull request [on GitHub](https://github.com/openmindculture/intellij-cute-pink-light-theme).
+
+For JetBrains IDEs, version 2020.2 and above, should probably work on older builds like 2019.1 as well, but untested.
+
+To install:
+- Go to Settings (Preferences) | Plugins, find the theme plugin and install it
+- Restart IDE
+- Go to Settings (Preferences) | Appearance & Behavior | Appearance and see the Theme dropdown
+[Report an issue](https://github.com/openmindculture/intellij-cute-pink-light-theme/issues/new) | [on GitHub](https://github.com/openmindculture/intellij-cute-pink-light-theme).
 <!-- Plugin description end -->
-
-## Installation
-
-- Using IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "intellij-cute-pink-light-theme"</kbd> >
-  <kbd>Install Plugin</kbd>
-  
-- Manually:
-
-  Download the [latest release](https://github.com/openmindculture/intellij-cute-pink-light-theme/releases/latest) and install it manually using
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
-
 
 ---
 Plugin based on the [IntelliJ Platform Plugin Template][template].

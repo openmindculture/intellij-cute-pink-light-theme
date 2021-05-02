@@ -12,7 +12,7 @@
     "pinkDarkBg": "#F4B4CC",
     "purpleLightText": "#A192AB",
     "purpleMediumText": "#826585",
-    "purpleDarkText": "#4A237B",
+    "purpleDarkText": "#2A035B",
     "purpleRedBorder": "#F14874",
     "purpleRedFocusRect": "#F26D90"
   },
@@ -28,6 +28,11 @@
       "underlineColor": "purpleRedBorder",
       "errorFocusColor": "purpleRedFocusRect"
     },
-    "Editor.background": "whiteBg"
+    "Editor.background": "whiteBg",
+    "Button.default.foreground": "whiteText",
+    "Borders": {
+      "color": "whiteBg",
+      "ContrastBorderColor": "purpleRedBorder"
+    }
   }
 }
