@@ -1,15 +1,33 @@
 <idea-plugin>
     <id>com.github.openmindculture.intellijcutepinklighttheme</id>
-    <name>intellij-cute-pink-light-theme</name>
-    <vendor>openmindculture</vendor>
+    <name>Cute Pink Light Theme</name>
+    <version>1.0.0</version>
+    <vendor url="https://github.com/openmindculture/">openmindculture</vendor>
+
+    <description>
+        <![CDATA[
+            Cute Pink Light Theme for IntelliJ Platform inspired by WebFreak's Cute Pink Light Theme for VisualStudio Code.
+        ]]>
+    </description>
+    <change-notes>
+        <![CDATA[
+          <ul>
+            <li><b>1.0.0</b> Initial release. Basic theme functionality.</li>
+          </ul>
+        ]]>
+    </change-notes>
+
+    <!-- Compatible with the following versions of IntelliJ Platform:
+      version 2019.1 and newer. -->
+    <idea-version since-build="191"/>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
+    <!-- Indicate this plugin can be loaded in all IntelliJ Platform-based products. -->
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.openmindculture.intellijcutepinklighttheme.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.openmindculture.intellijcutepinklighttheme.services.MyProjectService"/>
+        <themeProvider id="b47ffd25-0f88-44f0-a69f-ec62814c9bde" path="/cute_pink_light.theme.json"/>
     </extensions>
 
     <applicationListeners>

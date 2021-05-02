@@ -1,0 +1,32 @@
+{
+  "name": "cute_pink_light",
+  "dark": false,
+  "author": "openmindculture",
+  "editorScheme": "/cute_pink_light.xml",
+  "colors": {
+    "whiteBg": "#FFFFFF",
+    "pinkDeepBg": "#F14874",
+    "whiteText": "#FFFFFF",
+    "pinkLightBg": "#FCEAF1",
+    "pinkMediumBg": "#FCDEE9",
+    "pinkDarkBg": "#F4B4CC",
+    "purpleLightText": "#A192AB",
+    "purpleMediumText": "#826585",
+    "purpleDarkText": "#4A237B",
+    "purpleRedBorder": "#F14874",
+    "purpleRedFocusRect": "#F26D90"
+  },
+  "ui": {
+    "*": {
+      "background": "#FFFFFF",
+      "foreground": "#0C5800",
+      "selectionBackground": "#AED7E3",
+      "selectionForeground": "#032294",
+      "selectionInactiveBackground": "#BBE7F4",
+      "selectionBackgroundInactive": "#BBE7F4"
+    },
+    "Label.foreground": "#3959CC",
+    "Label.background": "#F6E9C9",
+    "Panel.background": "basicBackground"
+  }
+}
