@@ -1,7 +1,7 @@
 {
-  "name": "cute_pink_light",
+  "name": "Cute Pink Light",
   "dark": false,
-  "author": "openmindculture",
+  "author": "Ingo Steinke (openmindculture)",
   "editorScheme": "/cute_pink_light.xml",
   "colors": {
     "whiteBg": "#FFFFFF",
@@ -18,15 +18,16 @@
   },
   "ui": {
     "*": {
-      "background": "#FFFFFF",
-      "foreground": "#0C5800",
-      "selectionBackground": "#AED7E3",
-      "selectionForeground": "#032294",
-      "selectionInactiveBackground": "#BBE7F4",
-      "selectionBackgroundInactive": "#BBE7F4"
+      "background": "pinkLightBg",
+      "selectedBackground": "pinkMediumBg",
+      "hoverBackground": "pinkDarkBg",
+      "foreground": "purpleDarkText",
+      "disabledText": "purpleLightText",
+      "selectionBackground": "pinkDeepBg",
+      "selectionForeground": "whiteText",
+      "underlineColor": "purpleRedBorder",
+      "errorFocusColor": "purpleRedFocusRect"
     },
-    "Label.foreground": "#3959CC",
-    "Label.background": "#F6E9C9",
-    "Panel.background": "basicBackground"
+    "Editor.background": "whiteBg"
   }
 }
