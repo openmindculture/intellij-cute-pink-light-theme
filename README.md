@@ -21,7 +21,11 @@ To install:
 <!-- Plugin description end -->
 
 If you only want to install the theme, you do not need this repository.
-You can install the theme from JB marketplace (inside your IDE) or install zip file.
+You can install the theme from JB marketplace (inside your IDE) or install zip file (see below).
+
+### Screenshot
+
+![screenshot](cute-pink-light-theme-0.1.0.png)
 
 ### Local Installation
 
