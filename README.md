@@ -20,6 +20,27 @@ To install:
 [Report an issue](https://github.com/openmindculture/intellij-cute-pink-light-theme/issues/new) | [on GitHub](https://github.com/openmindculture/intellij-cute-pink-light-theme).
 <!-- Plugin description end -->
 
+If you only want to install the theme, you do not need this repository.
+You can install the theme from JB marketplace (inside your IDE) or install zip file.
+
+### Local Installation
+
+In `build/distributions` there is a zip file that I can manually import into my regular PHPStorm installation (Settings -> Plugins -> Gear Icon -> install plugin from disk).
+
+### Development
+
+Recommended development environment is IntelliJ IDEA Ultimate, to benefit from pre-configured build actions etc. like described by JetBrains in the [custom UI theme workflow](https://plugins.jetbrains.com/docs/intellij/themes.html#custom-ui-theme-workflow).
+
+- Edit colors in `src/main/META-INF/cute_pink_light_theme.json`.
+- `Build` the project from IntelliJ Build menu.
+- `Run Verifications` recreates artifacts.
+- `Run plugin` loads a theme preview into a new instance of IntelliJ IDEA.
+- See local installation above to verify the theme in any other JB IDE, like PHPStorm.
+
+### Author
+
+I am Ingo Steinke ([@openmindculture](https://github.com/openmindculture) on GitHub) a creative web developer, creating sustainable software and websites. If you like my [talks](https://www.ingo-steinke.com/#talks-events) and articles, feel free to [support me on patreon](https://www.patreon.com/ingosteinke), [buy me a coffee](https://www.buymeacoffee.com/ingosteinke) or [hire me as a freelancer](https://www.ingo-steinke.com/#contact).
+
 ---
 Plugin based on the [IntelliJ Platform Plugin Template][template].
 
