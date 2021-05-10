@@ -5,7 +5,8 @@
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
 <!-- Plugin description -->
-A light theme for JetBrains IDEs (PhpStorm, WebStorm, IntelliJ IDEA, etc.) inspired by [Cute Pink Light Theme for VisualStudio Code](https://marketplace.visualstudio.com/items?itemName=webfreak.cute-theme).
+[Cute Pink Light Theme](https://plugins.jetbrains.com/plugin/16721-cute-pink-light-theme) is a light IDE theme for JetBrains IDEs (PhpStorm, WebStorm, IntelliJ IDEA, etc.) inspired by [a theme for VisualStudio Code](https://marketplace.visualstudio.com/items?itemName=webfreak.cute-theme). This theme adds cute pink colors to your IDE, keeping the default light theme for editor and unchanged syntax highlighting. Based on JetBrains default light theme.
+
 
 **BETA: This theme is usable, but still unfinished!**
 
@@ -15,6 +16,7 @@ For JetBrains IDEs, version 2020.2 and above, should probably work on older buil
 
 To install:
 - Go to Settings (Preferences) | Plugins, find the theme plugin and install it
+- (_or_ download [Cute Pink Light Theme from JetBrains Plugins page](https://plugins.jetbrains.com/plugin/16721-cute-pink-light-theme)) 
 - Restart IDE
 - Go to Settings (Preferences) | Appearance & Behavior | Appearance and see the Theme dropdown
 [Report an issue](https://github.com/openmindculture/intellij-cute-pink-light-theme/issues/new) | [on GitHub](https://github.com/openmindculture/intellij-cute-pink-light-theme).
