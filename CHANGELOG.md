@@ -2,6 +2,10 @@
 
 # intellij-cute-pink-light-theme Changelog
 
+## 0.2.1 - 2021-08-04
+### Fixed
+- Extended compatibility to 2021.2 (212)
+
 ## 0.2.0 - unreleased
 ### Added
 - Customize more UI elements

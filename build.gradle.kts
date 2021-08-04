@@ -26,7 +26,6 @@ version = properties("pluginVersion")
 // Configure project's dependencies
 repositories {
     mavenCentral()
-    jcenter()
 }
 dependencies {
     detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.16.0")
@@ -39,7 +38,7 @@ intellij {
     version = properties("platformVersion")
     type = properties("platformType")
     downloadSources = properties("platformDownloadSources").toBoolean()
-    updateSinceUntilBuild = true
+    updateSinceUntilBuild = false
 
     // Plugin Dependencies. Uses `platformPlugins` property from the gradle.properties file.
     setPlugins(*properties("platformPlugins").split(',').map(String::trim).filter(String::isNotEmpty).toTypedArray())
