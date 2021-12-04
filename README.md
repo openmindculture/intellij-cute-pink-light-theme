@@ -12,7 +12,7 @@
 
 If you like to support development, you can open a pull request [on GitHub](https://github.com/openmindculture/intellij-cute-pink-light-theme).
 
-For JetBrains IDEs, version 2020.2 and above, should probably work on older builds like 2019.1 as well, but untested.
+For JetBrains IDEs, version 2020.2 and above. Tested up to 2021.3. It will probably work on older builds like 2019.1 as well, but untested.
 
 To install:
 - Go to Settings (Preferences) | Plugins, find the theme plugin and install it
@@ -41,6 +41,7 @@ Recommended development environment is IntelliJ IDEA Ultimate, to benefit from p
 - `Build` the project from IntelliJ Build menu.
 - `Run Verifications` recreates artifacts.
 - `Run plugin` loads a theme preview into a new instance of IntelliJ IDEA.
+- Exported plugin will be created as a `.zip` archive in `build/distributions`.
 - See local installation above to verify the theme in any other JB IDE, like PHPStorm.
 
 ### Author
