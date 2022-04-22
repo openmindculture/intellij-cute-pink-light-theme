@@ -12,7 +12,7 @@
 
 If you like to support development, you can open a pull request [on GitHub](https://github.com/openmindculture/intellij-cute-pink-light-theme).
 
-For JetBrains IDEs, version 2020.2 and above. Tested up to 2021.3. It will probably work on older builds like 2019.1 as well, but untested.
+For JetBrains IDEs, version 2020.2 and above. Tested up to 2022.1. It will probably work on older builds like 2019.1 as well, but untested.
 
 To install:
 - Go to Settings (Preferences) | Plugins, find the theme plugin and install it
