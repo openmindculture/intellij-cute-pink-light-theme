@@ -2,9 +2,14 @@
 
 # intellij-cute-pink-light-theme Changelog
 
-## 0.2.4 - 2022-04-23
+## 0.3.0 - 2022-04-25
 ### Fixed
+- Upgrade dependencies and IntelliJ Platform Plugin Template
 - Extended compatibility to 2022.1 (221, PS-221.*)
+
+## 0.2.4 - 2022-04-22 - unreleased
+### Fixed
+- Tried to extend compatibility to 2022.1 (221, PS-221.*)
 
 ## 0.2.3 - 2021-12-04
 ### Fixed
