@@ -44,6 +44,27 @@ Recommended development environment is IntelliJ IDEA Ultimate, to benefit from p
 - Exported plugin will be created as a `.zip` archive in `build/distributions`.
 - See local installation above to verify the theme in any other JB IDE, like PHPStorm.
 
+#### Fix Problems and Incompatibilities
+
+If the verification is missing:
+
+- `Run...` -> `Edit configurations` -> `add new` GradleRunConfiguration
+  `.run/Run Plugin Verification.run.xml`
+
+If the build does not run anymore, try to
+
+- upgrade dependencies if necessary
+- merge upgrades from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- look up error messages, issues, workarounds in [YouTrack](https://youtrack.jetbrains.com/)
+- use a current IntelliJ IDEA version (evaluation version should be enough)
+- [clear IntelliJ cache folders](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360003086459-kotlin-gradle-dsl-type-mismatch-expected-java-lang-string-but-inferred-type-is-kotlin-string) before rebuilding
+
+#### Upgrade Plugin for new IDEA versions
+
+- bump plugin version
+- add current IDEA version to supported targets
+- rebuild artifacts as described above
+
 ### Author
 
 I am Ingo Steinke ([@openmindculture](https://github.com/openmindculture) on GitHub) a creative web developer, creating sustainable software and websites. If you like my [talks](https://www.ingo-steinke.com/#talks-events) and articles, feel free to [support me on patreon](https://www.patreon.com/ingosteinke), [buy me a coffee](https://www.buymeacoffee.com/ingosteinke) or [hire me as a freelancer](https://www.ingo-steinke.com/#contact).
