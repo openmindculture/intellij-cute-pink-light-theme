@@ -46,18 +46,15 @@ Recommended development environment is IntelliJ IDEA Ultimate, to benefit from p
 
 #### Fix Problems and Incompatibilities
 
-If the verification is missing:
-
-- `Run...` -> `Edit configurations` -> `add new` GradleRunConfiguration
-  `.run/Run Plugin Verification.run.xml`
-
 If the build does not run anymore, try to
 
 - upgrade dependencies if necessary
 - merge upgrades from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
 - look up error messages, issues, workarounds in [YouTrack](https://youtrack.jetbrains.com/)
 - use a current IntelliJ IDEA version (evaluation version should be enough)
-- [clear IntelliJ cache folders](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360003086459-kotlin-gradle-dsl-type-mismatch-expected-java-lang-string-but-inferred-type-is-kotlin-string) before rebuilding
+- [clear IntelliJ cache folders](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360003086459-kotlin-gradle-dsl-type-mismatch-expected-java-lang-string-but-inferred-type-is-kotlin-string) (~/.cache/JetBrains/...)
+- clear gradle cache (~/.gradle/caches/*)
+- (re)build project
 
 #### Upgrade Plugin for new IDEA versions
 
