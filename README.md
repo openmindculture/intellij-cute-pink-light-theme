@@ -53,6 +53,11 @@ If the build does not run anymore, try to
 - clear gradle cache (~/.gradle/caches/*)
 - (re)build project
 
+Workaround for failing searchable options:
+- build using gradle wrapper on the command line
+- skip subtask to build searchable options
+  `./gradlew buildPlugin --exclude-task buildSearchableOptions`
+
 #### Upgrade Plugin for new IDEA versions
 
 - bump plugin version
