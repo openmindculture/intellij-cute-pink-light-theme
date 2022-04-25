@@ -58,7 +58,7 @@ tasks {
             targetCompatibility = it
         }
         withType<KotlinCompile> {
-            kotlinOptions.jvmTarget = it
+            kotlinOptions.jvmTarget = "1.8"
         }
     }
 

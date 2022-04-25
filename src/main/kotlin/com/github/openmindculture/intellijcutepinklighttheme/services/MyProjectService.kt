@@ -1,7 +1,7 @@
-package com.github.openmindculture.intellijcutepinklighttheme.services
+package org.jetbrains.plugins.template.services
 
-import com.github.openmindculture.intellijcutepinklighttheme.MyBundle
 import com.intellij.openapi.project.Project
+import org.jetbrains.plugins.template.MyBundle
 
 class MyProjectService(project: Project) {
 
