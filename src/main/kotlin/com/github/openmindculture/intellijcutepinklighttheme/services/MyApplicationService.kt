@@ -1,6 +1,6 @@
 package org.jetbrains.plugins.template.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.openmindculture.intellijcutepinklighttheme.MyBundle
 
 class MyApplicationService {
 

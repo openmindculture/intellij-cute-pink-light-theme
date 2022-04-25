@@ -1,6 +1,5 @@
 package com.github.openmindculture.intellijcutepinklighttheme
 
-import com.intellij.AbstractBundle
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
 import org.jetbrains.annotations.PropertyKey
