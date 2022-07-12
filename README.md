@@ -27,7 +27,7 @@ You can install the theme from JB marketplace (inside your IDE) or install zip f
 
 ### Local Installation
 
-In `build/distributions` there is a zip file that I can manually import into my regular PHPStorm installation (Settings -> Plugins -> Gear Icon -> install plugin from disk).
+In `build/distributions` there is a zip file that I can manually import into my regular PhpStorm installation (Settings -> Plugins -> Gear Icon -> install plugin from disk).
 
 ### Development
 
@@ -47,7 +47,7 @@ If the build does not run anymore, try to
 - upgrade dependencies if necessary
 - merge upgrades from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
 - look up error messages, issues, workarounds in [YouTrack](https://youtrack.jetbrains.com/)
-- set VM options `--add-opens=java.base/java.io=ALL-UNNAMED --illegal-access=deny` to Run Verifications task as a workaround for [IDEA-210683 Illegal reflective access in IJ codebase](https://youtrack.jetbrains.com/issue/IDEA-210683) and possibly also in general Java / Kotlin options ins IDE settings
+- set VM options `--add-opens=java.base/java.io=ALL-UNNAMED --illegal-access=deny` to Run Verifications task as a workaround for [IDEA-210683 Illegal reflective access in IJ codebase](https://youtrack.jetbrains.com/issue/IDEA-210683) and possibly also in general Java / Kotlin options in IDE settings
 - use a current IntelliJ IDEA version (evaluation version should be enough)
 - [clear IntelliJ cache folders](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360003086459-kotlin-gradle-dsl-type-mismatch-expected-java-lang-string-but-inferred-type-is-kotlin-string) (~/.cache/JetBrains/...)
 - clear gradle cache (~/.gradle/caches/*)
@@ -61,6 +61,9 @@ The workaround causes a "plugin error" in the IDE on every IDE start, although t
 
 Ongoing discussion in JetBrains YouTrack issue (marked as fixed, but still does not work for me):
 [youtrack.jetbrains.com/issue/IDEA-292389/build-plugin-for-20221-error](https://youtrack.jetbrains.com/issue/IDEA-292389/build-plugin-for-20221-error)
+
+StackOverflow issue describing the current state of the project producing either a fatal error at build time or a non-critical error at run time when using an IDE with the latest plugin version:
+[stackoverflow.com/questions/72951395/intellij-theme-plugin-fails-to-build-fatal-error-trying-to-buildsearchableoptio](https://stackoverflow.com/questions/72951395/intellij-theme-plugin-fails-to-build-fatal-error-trying-to-buildsearchableoptio)
 
 #### Upgrade Plugin for new IDEA versions
 
