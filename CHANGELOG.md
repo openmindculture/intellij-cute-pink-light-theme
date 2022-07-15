@@ -2,6 +2,12 @@
 
 # intellij-cute-pink-light-theme Changelog
 
+## 0.4.0 - 2022-07-15
+### Fixed
+- remove outdated definitions in plugin.xml
+- remove everything inside /src/main/kotlin
+- disable the buildSearchableOptions task in Gradle build file.
+
 ## 0.3.0 - 2022-04-25
 ### Fixed
 - Upgrade dependencies and IntelliJ Platform Plugin Template
