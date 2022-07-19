@@ -2,6 +2,17 @@
 
 # intellij-cute-pink-light-theme Changelog
 
+## 0.4.1 - 2022-07-19
+### Fixed
+- fix verification errors
+  - missing property applicationService of resource bundle MyBundle
+    
+> Constructor `MyApplicationService.<init>()` references property `applicationService` that is not found in resource bundle `MyBundle`. This can lead to `MissingResourceException` exception at runtime.
+
+- (TODO hide details once actually fixed)
+- use latest stable 221 version (idea-IU-221.5921.22) to build
+- try to prefer JetBrains tools over Java/JDK/Gradle tools in settings
+
 ## 0.4.0 - 2022-07-19
 ### Fixed
 - remove outdated definitions in plugin.xml
