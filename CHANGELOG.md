@@ -4,14 +4,10 @@
 
 ## 0.4.1 - 2022-07-19
 ### Fixed
-- fix verification errors
-  - missing property applicationService of resource bundle MyBundle
-    
-> Constructor `MyApplicationService.<init>()` references property `applicationService` that is not found in resource bundle `MyBundle`. This can lead to `MissingResourceException` exception at runtime.
-
-- (TODO hide details once actually fixed)
+- trying to fix or skip verification errors still present in 0.4.0
 - use latest stable 221 version (idea-IU-221.5921.22) to build
 - try to prefer JetBrains tools over Java/JDK/Gradle tools in settings
+- try to disable runVerifications and only run buildPlugin instead
 
 ## 0.4.0 - 2022-07-19
 ### Fixed
