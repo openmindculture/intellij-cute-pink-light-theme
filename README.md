@@ -49,8 +49,8 @@ If the build does not run anymore, try to
 - look up error messages, issues, workarounds in [YouTrack](https://youtrack.jetbrains.com/)
 - set VM options `--add-opens=java.base/java.io=ALL-UNNAMED --illegal-access=deny` to Run Verifications task as a workaround for [IDEA-210683 Illegal reflective access in IJ codebase](https://youtrack.jetbrains.com/issue/IDEA-210683) and possibly also in general Java / Kotlin options in IDE settings
 - use a current IntelliJ IDEA version (evaluation version should be enough)
-- [clear IntelliJ cache folders](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360003086459-kotlin-gradle-dsl-type-mismatch-expected-java-lang-string-but-inferred-type-is-kotlin-string) (~/.cache/JetBrains/...)
-- clear gradle cache (~/.gradle/caches/*)
+- [clear IntelliJ cache folders](https://intellij-support.jetbrains.com/hc/en-us/community/posts/360003086459-kotlin-gradle-dsl-type-mismatch-expected-java-lang-string-but-inferred-type-is-kotlin-string) (`rm -rf ~/.cache/JetBrains/*`)
+- clear gradle cache (`rm -rf ~/.gradle/caches/*`)
 - (re)build project
 
 #### Upgrade Plugin for new IDEA versions
