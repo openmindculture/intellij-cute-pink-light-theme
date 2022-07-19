@@ -1,5 +1,6 @@
 .gradle
 .idea
+.run
 build/*
 !build/distributions
 !build/distributions/*
