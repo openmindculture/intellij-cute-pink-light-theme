@@ -63,6 +63,10 @@ tasks {
         }
     }
 
+    buildSearchableOptions {
+        enabled = false
+    }
+
     wrapper {
         gradleVersion = properties("gradleVersion")
     }
@@ -120,20 +124,5 @@ tasks {
         // Specify pre-release label to publish the plugin in a custom Release Channel automatically. Read more:
         // https://plugins.jetbrains.com/docs/intellij/deployment.html#specifying-a-release-channel
         channels.set(listOf(properties("pluginVersion").split('-').getOrElse(1) { "default" }.split('.').first()))
-    }
-
-    // workaround for https://youtrack.jetbrains.com/issue/IDEA-210683
-    getByName<JavaExec>("buildSearchableOptions") {
-        jvmArgs(
-            "--illegal-access=deny",
-            "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
-            "--add-opens=java.desktop/java.awt=ALL-UNNAMED",
-            "--add-opens=java.base/java.lang=ALL-UNNAMED",
-            "--add-opens=java.desktop/javax.swing=ALL-UNNAMED",
-            "--add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED",
-            "--add-opens=java.desktop/sun.font=ALL-UNNAMED",
-            "--add-opens=java.desktop/sun.swing=ALL-UNNAMED",
-            "--add-opens=java.desktop/com.apple.eawt.event=ALL-UNNAMED"
-        )
     }
 }

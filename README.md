@@ -53,18 +53,6 @@ If the build does not run anymore, try to
 - clear gradle cache (~/.gradle/caches/*)
 - (re)build project
 
-Workaround for failing searchable options:
-- build using gradle wrapper on the command line
-- skip subtask to build searchable options
-  `./gradlew buildPlugin --exclude-task buildSearchableOptions`
-The workaround causes a "plugin error" in the IDE on every IDE start, although the plugin still works as expected.
-
-Ongoing discussion in JetBrains YouTrack issue (marked as fixed, but still does not work for me):
-[youtrack.jetbrains.com/issue/IDEA-292389/build-plugin-for-20221-error](https://youtrack.jetbrains.com/issue/IDEA-292389/build-plugin-for-20221-error)
-
-StackOverflow issue describing the current state of the project producing either a fatal error at build time or a non-critical error at run time when using an IDE with the latest plugin version:
-[stackoverflow.com/questions/72951395/intellij-theme-plugin-fails-to-build-fatal-error-trying-to-buildsearchableoptio](https://stackoverflow.com/questions/72951395/intellij-theme-plugin-fails-to-build-fatal-error-trying-to-buildsearchableoptio)
-
 #### Upgrade Plugin for new IDEA versions
 
 - bump plugin version
