@@ -2,6 +2,9 @@
 
 # intellij-cute-pink-light-theme Changelog
 
+## 0.4.2 - 2022-07-19
+- trying to fix or skip verification errors still present in 0.4.0
+
 ## 0.4.1 - 2022-07-19
 ### Fixed
 - trying to fix or skip verification errors still present in 0.4.0
