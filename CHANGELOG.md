@@ -2,7 +2,7 @@
 
 # intellij-cute-pink-light-theme Changelog
 
-## 0.4.0 - 2022-07-15
+## 0.4.0 - 2022-07-19
 ### Fixed
 - remove outdated definitions in plugin.xml
 - remove everything inside /src/main/kotlin
