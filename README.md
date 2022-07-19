@@ -40,6 +40,8 @@ Recommended development environment is IntelliJ IDEA Ultimate, to benefit from p
   - `:buildPlugin` can be used to build the plugin artifacts
 - `Run plugin` loads a theme preview into a new instance of IntelliJ IDEA.
 - Exported plugin will be created as a `.zip` archive in `build/distributions`.
+- We can manually remove `searchableOptions.jar from the exported plugin zip file
+to further optimize and clean up our build. (TODO: should be achieved using configuration)
 - See local installation above to verify the theme in any other JB IDE, like PHPStorm.
 
 #### Fix Problems and Incompatibilities

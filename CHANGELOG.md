@@ -4,16 +4,11 @@
 
 ## 0.4.4 - 2022-07-19
 - remove hopefully obsolete components to fix verification errors
-
-## 0.4.2 - 2022-07-19
-- trying to fix or skip verification errors still present in 0.4.0
-
-## 0.4.1 - 2022-07-19
-### Fixed
-- trying to fix or skip verification errors still present in 0.4.0
+- try to fix or skip verification errors still present in 0.4.0
 - use latest stable 221 version (idea-IU-221.5921.22) to build
 - try to prefer JetBrains tools over Java/JDK/Gradle tools in settings
 - try to disable runVerifications and only run buildPlugin instead
+- manually remove searchableOptions.jar from exported plugin zip file
 
 ## 0.4.0 - 2022-07-19
 ### Fixed
