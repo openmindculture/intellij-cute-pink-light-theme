@@ -36,6 +36,8 @@ Recommended development environment is IntelliJ IDEA Ultimate, to benefit from p
 - Edit colors in `src/main/META-INF/cute_pink_light_theme.json`.
 - `Build` the project from IntelliJ Build menu.
 - `Run Verifications` recreates artifacts.
+  - the actual verification can be skipped for a theme plugin that does not implement any code,
+  - `:buildPlugin` can be used to build the plugin artifacts
 - `Run plugin` loads a theme preview into a new instance of IntelliJ IDEA.
 - Exported plugin will be created as a `.zip` archive in `build/distributions`.
 - See local installation above to verify the theme in any other JB IDE, like PHPStorm.
