@@ -2,11 +2,9 @@
 
 # intellij-cute-pink-light-theme Changelog
 
-## 0.5.0 - unreleased
+## 0.5.0 - 2022-07-20
 ### Fixed
-- Upgrade dependencies
-- Fix [deprecations](https://plugins.jetbrains.com/docs/intellij/api-changes-list-2022.html) to support API 2022.2+
-- Extend compatibility to 2022.2 (222, PS-222.*)
+- Ensure compatibility for 2022.2 (222, PS-222.*)
 
 ## 0.4.4 - 2022-07-19
 - remove hopefully obsolete components to fix verification errors
