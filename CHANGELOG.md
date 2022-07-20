@@ -2,18 +2,17 @@
 
 # intellij-cute-pink-light-theme Changelog
 
+## 0.5.0 - 2022-07-20
+### Fixed
+- Ensure compatibility for 2022.2 (222, PS-222.*)
+
 ## 0.4.4 - 2022-07-19
 - remove hopefully obsolete components to fix verification errors
-
-## 0.4.2 - 2022-07-19
-- trying to fix or skip verification errors still present in 0.4.0
-
-## 0.4.1 - 2022-07-19
-### Fixed
-- trying to fix or skip verification errors still present in 0.4.0
+- try to fix or skip verification errors still present in 0.4.0
 - use latest stable 221 version (idea-IU-221.5921.22) to build
 - try to prefer JetBrains tools over Java/JDK/Gradle tools in settings
 - try to disable runVerifications and only run buildPlugin instead
+- manually remove searchableOptions.jar from exported plugin zip file
 
 ## 0.4.0 - 2022-07-19
 ### Fixed
@@ -24,7 +23,7 @@
 ## 0.3.0 - 2022-04-25
 ### Fixed
 - Upgrade dependencies and IntelliJ Platform Plugin Template
-- Extended compatibility to 2022.1 (221, PS-221.*)
+- Extend compatibility to 2022.1 (221, PS-221.*)
 
 ## 0.2.4 - 2022-04-22 - unreleased
 ### Fixed
