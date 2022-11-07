@@ -4,7 +4,7 @@
 
 ## 0.6.3 - 2022-10-07
 - next steps to finish UI customization
-  - set editor gutter color (as a first step to finish UI customization)
+  - set editor gutter color
   - link helpful resources in README
   - fork a [Cute Pink Dark Theme](https://github.com/openmindculture/intellij-cute-pink-dark-theme)
 
