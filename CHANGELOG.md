@@ -2,6 +2,10 @@
 
 # intellij-cute-pink-light-theme Changelog
 
+## 0.6.4 - 2022-11-07
+### Fixed
+- Ensure compatibility for 2022.2 stable (222, PS-222.*, 2022.2)
+
 ## 0.6.3 - 2022-10-07
 - next steps to finish UI customization
   - set editor gutter color
