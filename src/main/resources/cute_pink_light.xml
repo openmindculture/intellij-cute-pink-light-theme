@@ -1,2 +1,6 @@
 <scheme name="cute_pink_light" version="142" parent_scheme="Default">
+    <colors>
+        <option name="GUTTER_BACKGROUND" value="FCDEE9" />
+        <option name="GUTTER_FOREGROUND" value="800E34" />
+    </colors>
 </scheme>
