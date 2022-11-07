@@ -23,7 +23,7 @@ You can install the theme from JB marketplace (inside your IDE) or install zip f
 
 ### Screenshot
 
-![screenshot](cute-pink-light-theme-0.1.0.png)
+![screenshot](cute-pink-light-theme-0.6.0.png)
 
 ### Local Installation
 
