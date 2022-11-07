@@ -44,6 +44,13 @@ Recommended development environment is IntelliJ IDEA Ultimate, to benefit from p
 to further optimize and clean up our build. (TODO: should be achieved using configuration)
 - See local installation above to verify the theme in any other JB IDE, like PHPStorm.
 
+For anyone planning to create a new theme plugin: you probably do not need a complex Gradle setup, as there is a new
+wizard for creating a UI theme. See:
+- https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/
+- https://plugins.jetbrains.com/docs/intellij/theme-structure.html
+
+To find out the internal names of UI elements, we can now use the [UI inspector](https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/#UI_Inspector%EF%BB%BF).
+
 #### Fix Problems and Incompatibilities
 
 If the build does not run anymore, try to
