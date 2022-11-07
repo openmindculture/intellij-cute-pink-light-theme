@@ -31,7 +31,18 @@ In `build/distributions` there is a zip file that I can manually import into my 
 
 ### Development
 
+[Cute Pink Light Theme (openmindculture/intellij-cute-pink-light-theme)](https://github.com/openmindculture/intellij-cute-pink-light-theme)
+can be used as an upstream repository for variations like
+[Cute Pink Dark Theme (intellij-cute-pink-dark-theme)](https://github.com/openmindculture/intellij-cute-pink-dark-theme).
+
 Recommended development environment is IntelliJ IDEA Ultimate, to benefit from pre-configured build actions etc. like described by JetBrains in the [custom UI theme workflow](https://plugins.jetbrains.com/docs/intellij/themes.html#custom-ui-theme-workflow).
+
+For anyone planning to create a new theme plugin: you probably do not need a complex Gradle setup, as there is a new
+wizard for creating a UI theme. See:
+- https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/
+- https://plugins.jetbrains.com/docs/intellij/theme-structure.html
+
+To find out the internal names of UI elements, we can now use the [UI inspector](https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/#UI_Inspector%EF%BB%BF).
 
 - Edit colors in `src/main/META-INF/cute_pink_light_theme.json`.
 - `Build` the project from IntelliJ Build menu.
@@ -43,13 +54,6 @@ Recommended development environment is IntelliJ IDEA Ultimate, to benefit from p
 - We can manually remove `searchableOptions.jar from the exported plugin zip file
 to further optimize and clean up our build. (TODO: should be achieved using configuration)
 - See local installation above to verify the theme in any other JB IDE, like PHPStorm.
-
-For anyone planning to create a new theme plugin: you probably do not need a complex Gradle setup, as there is a new
-wizard for creating a UI theme. See:
-- https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/
-- https://plugins.jetbrains.com/docs/intellij/theme-structure.html
-
-To find out the internal names of UI elements, we can now use the [UI inspector](https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/#UI_Inspector%EF%BB%BF).
 
 #### Fix Problems and Incompatibilities
 
