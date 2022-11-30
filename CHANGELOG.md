@@ -2,7 +2,7 @@
 
 # intellij-cute-pink-light-theme Changelog
 
-## 0.7.0 - unreleased
+## 0.7.0 - 2022-11-30
 ### Fixed
 - Ensure compatibility for 2022.3 stable (223, 2022.3)
 
