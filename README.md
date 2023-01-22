@@ -80,6 +80,8 @@ If the build does not run anymore, try to
 - add current IDEA version to supported targets
 - rebuild artifacts as described above
 
+Alternatively, if we know, or guess, the latest IDEA version to claim compatibility with, after editing the theme source files, we can extract the latest build archive, extract the *-theme-*.jar and replace IDEA versions, plugin versions, and tool versions like the gradle version, in the files (`META-INF/plugin.xml`, `META-INF/MANIFEST.MF`) and rename the directory accordingly, before compressing the files and testing the manual build with an early access EAP version of the upcoming IDEA application.
+
 ### Author
 
 I am Ingo Steinke ([@openmindculture](https://github.com/openmindculture) on GitHub) a creative web developer, creating sustainable software and websites. If you like my [talks](https://www.ingo-steinke.com/#talks-events) and articles, feel free to [support me on patreon](https://www.patreon.com/ingosteinke), [buy me a coffee](https://www.buymeacoffee.com/ingosteinke) or [hire me as a freelancer](https://www.ingo-steinke.com/#contact).
