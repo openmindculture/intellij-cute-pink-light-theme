@@ -2,6 +2,14 @@
 
 # intellij-cute-pink-light-theme Changelog
 
+## 0.8.4 - 2023-07-31
+### Fixed
+- Extend future compatibility beyond 2023.2 (232)
+
+## 0.8.1 - 2023-07-31
+### Fixed
+- Ensure compatibility for 2023.2 (232)
+
 ## 0.8.0 - 2023-01-23
 ### Fixed
 - Ensure compatibility for 2023.1 (231)

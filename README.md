@@ -41,6 +41,9 @@ cd intellij-cute-pink-dark-theme.git
 git remote add upstream git@github.com:openmindculture/intellij-cute-pink-light-theme.git
 ```
 
+A plugin consisting of a single .jar file is placed in the /plugins directory.
+Source: https://plugins.jetbrains.com/docs/intellij/plugin-content.html
+
 Recommended development environment is IntelliJ IDEA Ultimate, to benefit from pre-configured build actions etc. like described by JetBrains in the [custom UI theme workflow](https://plugins.jetbrains.com/docs/intellij/themes.html#custom-ui-theme-workflow).
 
 For anyone planning to create a new theme plugin: you probably do not need a complex Gradle setup, as there is a new
