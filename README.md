@@ -81,8 +81,8 @@ Create an archive `intellij-cute-pink-light-theme-x.y.z.zip` containing:
   - `intellij-cute-pink-light-theme/` 
     - `lib/`
       - `intellij-cute-pink-light-theme-x.y.z.jar`
-        The `.jar` file is another zip archive containing the contents of `src/resources` e.g.:
-        - `intellij-cute-pink-light-theme-0.8.4/`
+        The `.jar` file is another zip archive containing the contents of `src/resources`
+        with **no additional folder in between, e.g.:
           - `cute_pink_light.theme.json`
           - `cute_pink_light.xml`
           - `META-INF/`
