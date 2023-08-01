@@ -41,10 +41,10 @@ cd intellij-cute-pink-dark-theme.git
 git remote add upstream git@github.com:openmindculture/intellij-cute-pink-light-theme.git
 ```
 
-A plugin consisting of a single .jar file is placed in the /plugins directory.
-Source: https://plugins.jetbrains.com/docs/intellij/plugin-content.html
+Recommended development environment is IntelliJ IDEA Ultimate, to benefit from pre-configured build actions etc. like described by JetBrains in the [custom UI theme workflow](https://plugins.jetbrains.com/docs/intellij/themes.html#custom-ui-theme-workflow). But this is not necessary for a simple theme plugin.
 
-Recommended development environment is IntelliJ IDEA Ultimate, to benefit from pre-configured build actions etc. like described by JetBrains in the [custom UI theme workflow](https://plugins.jetbrains.com/docs/intellij/themes.html#custom-ui-theme-workflow).
+> A plugin consisting of a single .jar file is placed in the /plugins directory.
+Source: https://plugins.jetbrains.com/docs/intellij/plugin-content.html
 
 For anyone planning to create a new theme plugin: you probably do not need a complex Gradle setup, as there is a new
 wizard for creating a UI theme. See:
@@ -53,7 +53,18 @@ wizard for creating a UI theme. See:
 
 To find out the internal names of UI elements, we can now use the [UI inspector](https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/#UI_Inspector%EF%BB%BF).
 
+### Development, Build and Export
+
 - Edit colors in `src/main/META-INF/cute_pink_light_theme.json`.
+- Edit theme version, supported IDE versions, and other data, in 
+  - `src/main/resources/META-INF/plugin.xml`
+  - `src/main/resources/META-INF/MANIFEST.MF` (only used for alternative manual export)
+  - `gradle.properties` (only used for IntelliJ gradle build)
+  - `build.gradle.kts` (only used for IntelliJ gradle build)
+- Edit the `CHANGELOG.md` 
+
+#### IntelliJ Gradle Build 
+
 - `Build` the project from IntelliJ Build menu.
 - `Run Verifications` recreates artifacts.
   - the actual verification can be skipped for a theme plugin that does not implement any code,
@@ -63,6 +74,23 @@ To find out the internal names of UI elements, we can now use the [UI inspector]
 - We can manually remove `searchableOptions.jar from the exported plugin zip file
 to further optimize and clean up our build. (TODO: should be achieved using configuration)
 - See local installation above to verify the theme in any other JB IDE, like PHPStorm.
+
+#### Alternative Manual Export (without IntelliJ Build Process)
+
+Create an archive `intellij-cute-pink-light-theme-x.y.z.zip` containing:
+  - `intellij-cute-pink-light-theme/` 
+    - `lib/`
+      - `intellij-cute-pink-light-theme-x.y.z.jar`
+        The `.jar` file is another zip archive containing the contents of `src/resources` e.g.:
+        - `intellij-cute-pink-light-theme-0.8.4/`
+          - `cute_pink_light.theme.json`
+          - `cute_pink_light.xml`
+          - `META-INF/`
+            - `plugin.xml`
+            - `pluginIcon.svg`
+            - `MANIFEST.MF`
+
+A valid `MANIFEST.MF` example is included to simplify theme export and update.
 
 #### Fix Problems and Incompatibilities
 
