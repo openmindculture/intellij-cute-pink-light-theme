@@ -33,6 +33,16 @@
     "Borders": {
       "color": "whiteBg",
       "ContrastBorderColor": "purpleRedBorder"
-    }
+    },
+    "Panel.foreground": "purpleDarkText",
+    "Panel.foreground.hover": "purpleDarkText",
+    "Panel.hoverForeground": "purpleDarkText",
+    "ScrollPane.background": "whiteBg",
+    "ScrollPane.foreground": "purpleDarkText",
+    "TextArea.foreground": "purpleDarkText",
+    "TextField.background": "whiteBg",
+    "TextField.foreground": "purpleDarkText",
+    "TextField.inactiveForeground": "purpleDarkText",
+    "Viewport.foreground": "purpleDarkText"
   }
 }
