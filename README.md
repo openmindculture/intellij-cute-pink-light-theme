@@ -70,12 +70,26 @@ More information about colors and fonts can be found here: https://www.jetbrains
 ### Development, Build and Export
 
 - Edit colors in `src/main/META-INF/cute_pink_light_theme.json`.
-- Edit theme version, supported IDE versions, and other data, in 
-  - `src/main/resources/META-INF/plugin.xml`
-  - `src/main/resources/META-INF/MANIFEST.MF` (only used for alternative manual export)
-  - `gradle.properties` (only used for IntelliJ gradle build)
-  - `build.gradle.kts` (only used for IntelliJ gradle build)
-- Edit the `CHANGELOG.md` 
+- As a contributor:
+  - create a pull request on GitHub.
+- As a maintainer:
+  - Edit theme version, supported IDE versions, and other data, in 
+    - `src/main/resources/META-INF/plugin.xml`
+    - `src/main/resources/META-INF/MANIFEST.MF`
+    - `package.json`
+    - `gradle.properties` (only used for IntelliJ gradle build)
+    - `build.gradle.kts` (only used for IntelliJ gradle build)
+  - Build using one of the methods described below. 
+  - Add a change log in `CHANGELOG.md`. 
+  - Add a git tag, create a release, and add the theme zip.
+  - Upload the theme zip to JetBrains marketplace.
+
+#### Shell Build (beta)
+
+`npm run build`
+
+- requires `bash`/`sh`!
+- creates a `build/distributions/intellij-cute-pink-light-theme-x.y.z.zip`
 
 #### IntelliJ Gradle Build 
 
