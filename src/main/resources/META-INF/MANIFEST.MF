@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Created-By: Gradle 7.5.0
 Build-JVM: 17.0.4.1 (JetBrains s.r.o. 17.0.4.1+7-b469.62)
-Version: 0.8.4
+Version: 0.9.0
 Build-Plugin: Gradle IntelliJ Plugin
 Build-Plugin-Version: 1.10.0
 Build-OS: Linux 6.2.0-10018-tuxedo amd64
