@@ -2,8 +2,13 @@
 
 # intellij-cute-pink-light-theme Changelog
 
+## 1.0.0 - 2024-02-13
+- remove obsolete dependencies
+- ensure compatibility for 2023.3 (233) and 2024.1 (241)
+- update documentation
+
 ## 0.9.0 - 2023-09-01
-- add missing color definitions for 2023.2 ##17
+- add missing color definitions for 2023.2 #17
 
 ## 0.8.4 - 2023-07-31
 ### Fixed

@@ -3,12 +3,9 @@
 <!-- Plugin description -->
 [Cute Pink Light Theme](https://plugins.jetbrains.com/plugin/16721-cute-pink-light-theme) is a light IDE theme for JetBrains IDEs (PhpStorm, WebStorm, IntelliJ IDEA, etc.) inspired by [a theme for VisualStudio Code](https://marketplace.visualstudio.com/items?itemName=webfreak.cute-theme). This theme adds cute pink colors to your IDE, keeping the default light theme for editor and unchanged syntax highlighting. Based on JetBrains default light theme.
 
-
-**BETA: This theme is usable, but still unfinished!**
-
 If you like to support development, you can open a pull request [on GitHub](https://github.com/openmindculture/intellij-cute-pink-light-theme).
 
-For JetBrains IDEs, version 2020.2 and above. Tested up to 2022.1. It will probably work on older builds like 2019.1 as well, but untested.
+For JetBrains IDEs, version 2020.2 and above. Version 1.0.0 has been tested up to 2024.1 (244) EAP and should also support later IDEA versions.
 
 To install:
 - Go to Settings (Preferences) | Plugins, find the theme plugin and install it
@@ -21,9 +18,19 @@ To install:
 If you only want to install the theme, you do not need this repository.
 You can install the theme from JB marketplace (inside your IDE) or install zip file (see below).
 
-### Screenshot
+### Screenshots
 
-![screenshot](cute-pink-light-theme-0.6.0.png)
+New UI (PhPStorm 2023.3.3)
+
+![screenshot](cute-pink-light-theme-1.0.0.png)
+
+Classic UI (PhPStorm 2023.3.3)
+
+![screenshot](cute-pink-light-theme-1.0.0-screenshot-1.png)
+
+New UI (WebStorm 2024.1 EAP)
+
+![screenshot](cute-pink-light-theme-1.0.0-screenshot-5.png)
 
 ### Local Installation
 
@@ -41,15 +48,15 @@ cd intellij-cute-pink-dark-theme.git
 git remote add upstream git@github.com:openmindculture/intellij-cute-pink-light-theme.git
 ```
 
-Recommended development environment is IntelliJ IDEA Ultimate, to benefit from pre-configured build actions etc. like described by JetBrains in the [custom UI theme workflow](https://plugins.jetbrains.com/docs/intellij/themes.html#custom-ui-theme-workflow). But this is not necessary for a simple theme plugin.
+The initial settings for the formerly recommended development environment, IntelliJ IDEA Ultimate, as described by JetBrains in the [custom UI theme workflow](https://plugins.jetbrains.com/docs/intellij/themes.html#custom-ui-theme-workflow), has been removed in favor of a simple build script since release 1.0.0. You can also create a zip file manually, see the instructions below.
 
-> A plugin consisting of a single .jar file is placed in the /plugins directory.
-Source: https://plugins.jetbrains.com/docs/intellij/plugin-content.html
-
-For anyone planning to create a new theme plugin: you probably do not need a complex Gradle setup, as there is a new
+For creating future theme plugins, you do not need a complex Gradle setup, as there is a new
 wizard for creating a UI theme. See:
 - https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/
 - https://plugins.jetbrains.com/docs/intellij/theme-structure.html
+
+> A plugin consisting of a single .jar file is placed in the /plugins directory.
+Source: https://plugins.jetbrains.com/docs/intellij/plugin-content.html
 
 To find out the internal names of UI elements, we can now use the [UI inspector](https://blog.jetbrains.com/platform/2021/10/themes-in-intellij-based-ides/#UI_Inspector%EF%BB%BF):
 > The UI Inspector is a powerful tool to investigate the IntelliJ-based IDE UI elements to get an internal description of each element. In addition, UI elements can be tested interactively with Ctrl+Alt+Click on the element.
@@ -84,24 +91,12 @@ More information about colors and fonts can be found here: https://www.jetbrains
   - Add a git tag, create a release, and add the theme zip.
   - Upload the theme zip to JetBrains marketplace.
 
-#### Shell Build (beta)
+#### Shell Build
 
 `npm run build`
 
 - requires `bash`/`sh`!
 - creates a `build/distributions/intellij-cute-pink-light-theme-x.y.z.zip`
-
-#### IntelliJ Gradle Build 
-
-- `Build` the project from IntelliJ Build menu.
-- `Run Verifications` recreates artifacts.
-  - the actual verification can be skipped for a theme plugin that does not implement any code,
-  - `:buildPlugin` can be used to build the plugin artifacts
-- `Run plugin` loads a theme preview into a new instance of IntelliJ IDEA.
-- Exported plugin will be created as a `.zip` archive in `build/distributions`.
-- We can manually remove `searchableOptions.jar from the exported plugin zip file
-to further optimize and clean up our build. (TODO: should be achieved using configuration)
-- See local installation above to verify the theme in any other JB IDE, like PHPStorm.
 
 #### Alternative Manual Export (without IntelliJ Build Process)
 
