@@ -2,10 +2,9 @@
 
 # intellij-cute-pink-light-theme Changelog
 
-## 1.0.0 - 2024-02-14
+## 1.0.0 - 2024-02-13
 - remove obsolete dependencies
-- define tab and gutter colors
-- ensure compatibility for 2023.3 (233) and 2024.1 (EAP)
+- ensure compatibility for 2023.3 (233) and 2024.1 (241)
 
 ## 0.9.0 - 2023-09-01
 - add missing color definitions for 2023.2 #17
