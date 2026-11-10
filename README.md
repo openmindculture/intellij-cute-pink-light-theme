@@ -20,6 +20,10 @@ You can install the theme from JB marketplace (inside your IDE) or install zip f
 
 ### Screenshots
 
+AI chat color glitch fixed in theme version (PhpStorm 2026.2.2)
+
+![screenshot](cute-pink-light-theme-1.1.0-screenshot-with-ai.png)
+
 New UI (PhPStorm 2023.3.3)
 
 ![screenshot](cute-pink-light-theme-1.0.0.png)
