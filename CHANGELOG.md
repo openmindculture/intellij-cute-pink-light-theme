@@ -2,6 +2,10 @@
 
 # intellij-cute-pink-light-theme Changelog
 
+## 1.1.0 - 2026-11-10
+- fix AI assistant chat input colors #140
+- tested with 2026.2.2 (262.10315.130)
+
 ## 1.0.0 - 2024-02-13
 - remove obsolete dependencies
 - ensure compatibility for 2023.3 (233) and 2024.1 (241)
