@@ -1,11 +1,11 @@
 # Cute Pink Light Theme
 
 <!-- Plugin description -->
-[Cute Pink Light Theme](https://plugins.jetbrains.com/plugin/16721-cute-pink-light-theme) is a light IDE theme for JetBrains IDEs (PhpStorm, WebStorm, IntelliJ IDEA, etc.) inspired by [a theme for VisualStudio Code](https://marketplace.visualstudio.com/items?itemName=webfreak.cute-theme). This theme adds cute pink colors to your IDE, keeping the default light theme for editor and unchanged syntax highlighting. Based on JetBrains default light theme.
+[Cute Pink Light Theme](https://plugins.jetbrains.com/plugin/16721-cute-pink-light-theme) is a light IDE theme for JetBrains IDEs (PhpStorm, WebStorm, PyCharm, IntelliJ IDEA, etc.) inspired by [a theme for VisualStudio Code](https://marketplace.visualstudio.com/items?itemName=webfreak.cute-theme). This theme adds cute pink colors to your IDE, keeping the default light theme for editor and unchanged syntax highlighting. Based on JetBrains default light theme.
 
 If you like to support development, you can open a pull request [on GitHub](https://github.com/openmindculture/intellij-cute-pink-light-theme).
 
-For JetBrains IDEs, version 2020.2 and above. Version 1.0.0 has been tested up to 2024.1 (244) EAP and should also support later IDEA versions.
+For JetBrains IDEs, version 2020.2 and above. Version 1.1.0 has been tested up to 2026.3 (263) and should also support later IDE versions.
 
 To install:
 - Go to Settings (Preferences) | Plugins, find the theme plugin and install it
@@ -23,6 +23,14 @@ You can install the theme from JB marketplace (inside your IDE) or install zip f
 AI chat color glitch fixed in theme version (PhpStorm 2026.2.2)
 
 ![screenshot](cute-pink-light-theme-1.1.0-screenshot-with-ai.png)
+
+Large screen (PyCharm 2026.3)
+
+![large screen: PyCharm 2026.3](cute-pink-light-theme-1.1.0-screenshot-pycharm.png)
+
+Small screen (PhpStorm 2026.2)
+
+![compact web project view in PhpStorm 2026.2](cute-pink-light-theme-1.1.0-screenshot-compact.png)
 
 New UI (PhPStorm 2023.3.3)
 
